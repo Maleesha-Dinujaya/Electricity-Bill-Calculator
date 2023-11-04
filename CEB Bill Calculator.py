@@ -5,6 +5,7 @@ def calculate_bill():
     units = int(entry_units.get())
 
  # Define electricity rates and fixed charges for different unit ranges
+    
     if 0 <= units <= 30:
         unit_price = 12
         fixed_price = 180
